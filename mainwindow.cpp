@@ -11,6 +11,7 @@
 
 QString Numb_to_word(QString number);
 
+
 void write(QString filename)
 {
     QFile mfile(filename);
@@ -40,6 +41,8 @@ void read(QString filename)
     mfile.close();
 }
 
+
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -57,86 +60,407 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-   double z = 0;
-
-   for ( int i = 0; i < 14; i++ )
-   {
-   QString cen = ui->tableWidget->item(i,0)->text();
-   QString sht = ui->tableWidget->item(i,1)->text();
-   double itog = sht.toInt()*cen.toDouble();
-   z=z+itog;
-   ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
-   }
-
-   QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
-   QTextCodec::setCodecForTr(utfcodec);
-   QTextCodec::setCodecForCStrings(utfcodec);
-   QString sht = Numb_to_word(QString::number(z,'f',0));
-
-   ui->label_7->setText(sht+"руб");
-   qDebug() << sht;
-   //общаяя сумма
-   ui->label_3->setText(QString::number(z,'f',2));
 
 
 }
+
+
+
 void MainWindow::on_spinBox_14_valueChanged(const QString &arg1)
 {
     ui->tableWidget->setItem(13,1,new QTableWidgetItem(arg1.toStdString().c_str()));
-
+    double z, cop = 0;
+    int rub = 0;
+    for ( int i = 0; i < 14; i++ )
+     {
+        QString cen = ui->tableWidget->item(i,0)->text();
+        QString sht = ui->tableWidget->item(i,1)->text();
+        double itog = sht.toInt()*cen.toDouble();
+        z=z+itog;
+        ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+     }
+    rub = z;
+    cop = (z-rub)*100;
+    //qDebug() << rub << "rub " << cop << "cop";
+    QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+    QTextCodec::setCodecForTr(utfcodec);
+    QTextCodec::setCodecForCStrings(utfcodec);
+    QString sht = Numb_to_word(QString::number(rub,'f',0));
+    QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+    //сумма прописью
+    ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+    //qDebug() << sht << "руб " << sht2 << "коп";
+    //общаяя сумма
+    ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_13_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(12,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_12_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(11,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_11_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(10,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_10_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(9,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_09_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(8,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_08_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(7,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_07_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(6,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_06_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(5,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_05_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(4,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_04_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(3,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_03_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(2,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_02_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(1,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
 }
+
 void MainWindow::on_spinBox_01_valueChanged(const QString &arg1)
 {
      ui->tableWidget->setItem(0,1,new QTableWidgetItem(arg1.toStdString().c_str()));
+     double z, cop = 0;
+     int rub = 0;
+     for ( int i = 0; i < 14; i++ )
+      {
+         QString cen = ui->tableWidget->item(i,0)->text();
+         QString sht = ui->tableWidget->item(i,1)->text();
+         double itog = sht.toInt()*cen.toDouble();
+         z=z+itog;
+         ui->tableWidget->setItem(i,2, new QTableWidgetItem(QString::number(itog, 'f', 2)));
+      }
+     rub = z;
+     cop = (z-rub)*100;
+     //qDebug() << rub << "rub " << cop << "cop";
+     QTextCodec *utfcodec = QTextCodec::codecForName("UTF-8");
+     QTextCodec::setCodecForTr(utfcodec);
+     QTextCodec::setCodecForCStrings(utfcodec);
+     QString sht = Numb_to_word(QString::number(rub,'f',0));
+     QString sht2 = Numb_to_word(QString::number(cop,'f',0));
+     //сумма прописью
+     ui->label_7->setText(sht+"руб. "+sht2+"коп.");
+     //qDebug() << sht << "руб " << sht2 << "коп";
+     //общаяя сумма
+     ui->label_3->setText(QString::number(z,'f',2));
+
 }
+
+
+
 
 
 QString Numb_to_word(QString number)
