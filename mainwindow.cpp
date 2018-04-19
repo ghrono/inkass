@@ -67,21 +67,23 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
     QString z;
-    z=z+"1|";
+    QDate date = QDate::currentDate();
+    //z=z+"1|";
     for ( int i = 0; i < 14; i++ )
      {
         ui->tableWidget->item(i,2)->text();
-        z=z+ui->tableWidget->item(i,0)->text()+"|"+ui->tableWidget->item(i,1)->text()+"|"+ui->tableWidget->item(i,2)->text()+"|";
+        z=z+"1|"+ui->tableWidget->item(i,0)->text()+"|"+ui->tableWidget->item(i,1)->text()+"|"+ui->tableWidget->item(i,2)->text()+"|"+ui->comboBox_2->currentText()+"|"+ui->label_3->text()+"||||"+ui->label_7->text()+"|"+date.toString("d MMMM yyyy")+"\n";
      }
-    QDate date = QDate::currentDate();
-    z=z+ui->label_7->text()+"|"+date.toString("d MMMM yyyy")+"|"+ui->comboBox->currentText()+"|"+ui->comboBox_2->currentText();
+
+   // z=z+ui->label_7->text()+"|"+date.toString("d MMMM yyyy")+"|"+ui->comboBox->currentText()+"|"+ui->comboBox_2->currentText();
     qDebug() << z;
     if ((ui->comboBox->currentText() == "-") | (ui->comboBox_2->currentText() == "-") | (ui->label_7->text() == "-") | (ui->label_7->text() =="ноль руб. ноль коп."))
     {
         return;
     }
     write("sett.ini",z);
-    system("./printlab -F./baydj_form.fr3 -D./sett.ini -S -Q -PRICE &");
+    system("./printlab -F./baydj_form.fr3 -D./sett.ini -Design &");
+           //-S -Q -PRICE &");
 
 
 }
