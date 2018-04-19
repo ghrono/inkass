@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "stdio.h"
-#include <QDateTime>
+#include <QDate>
 #include <QFile>
 #include <QString>
 #include <QDebug>
@@ -12,7 +12,7 @@
 QString Numb_to_word(QString number);
 
 
-void write(QString filename)
+void write(QString filename,QString txt)
 {
     QFile mfile(filename);
     if (!mfile.open(QFile::WriteOnly | QFile::Text))
@@ -21,10 +21,11 @@ void write(QString filename)
         return;
     }
     QTextStream out(&mfile);
-    out << "helow world";
+    out << txt;
     mfile.flush();
     mfile.close();
 }
+
 void read(QString filename)
 {
 
@@ -47,10 +48,15 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-   QString mFilename = "sett.ini";
-   write(mFilename);
+   //QString mFilename = "sett.ini";
+  // write(mFilename);
  //   read(mFilename);
     ui->setupUi(this);
+    for ( int i = 0; i < 14; i++ )
+     {
+        ui->tableWidget->setItem(i,2, new QTableWidgetItem("0"));
+
+     }
 }
 
 MainWindow::~MainWindow()
@@ -60,6 +66,22 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
+    QString z;
+    z=z+"1|";
+    for ( int i = 0; i < 14; i++ )
+     {
+        ui->tableWidget->item(i,2)->text();
+        z=z+ui->tableWidget->item(i,0)->text()+"|"+ui->tableWidget->item(i,1)->text()+"|"+ui->tableWidget->item(i,2)->text()+"|";
+     }
+    QDate date = QDate::currentDate();
+    z=z+ui->label_7->text()+"|"+date.toString("d MMMM yyyy")+"|"+ui->comboBox->currentText()+"|"+ui->comboBox_2->currentText();
+    qDebug() << z;
+    if ((ui->comboBox->currentText() == "-") | (ui->comboBox_2->currentText() == "-") | (ui->label_7->text() == "-") | (ui->label_7->text() =="ноль руб. ноль коп."))
+    {
+        return;
+    }
+    write("sett.ini",z);
+    system("./printlab -F./baydj_form.fr3 -D./sett.ini -S -Q -PRICE &");
 
 
 }
