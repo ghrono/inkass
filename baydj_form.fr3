@@ -1,18 +1,380 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TfrxReport Version="5.4.4" DotMatrixReport="0" IniFile="tmp/fr5.ini" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="PDF" PrintOptions.PrintOnSheet="0" PrintOptions.ShowDialog="0" ReportOptions.CreateDate="39220.8927163079" ReportOptions.Description.Text="" ReportOptions.LastChange="43209.7380452778" ScriptLanguage="PascalScript" ScriptText.Text="&#10;begin&#10;&#10;end.">
+<TfrxReport Version="5.4.4" DotMatrixReport="0" IniFile="tmp/fr5.ini" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="PDF" PrintOptions.PrintOnSheet="0" PrintOptions.ShowDialog="0" ReportOptions.CreateDate="39220.8927163079" ReportOptions.Description.Text="" ReportOptions.LastChange="43210.0787916204" ScriptLanguage="PascalScript" ScriptText.Text="&#10;begin&#10;&#10;end.">
   <Datasets>
     <item DataSetName="Данные"/>
   </Datasets>
   <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
-  <TfrxReportPage Name="Page1" Font.Color="0" Font.Height="-13" Font.Name="Ubuntu" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="15" RightMargin="10" TopMargin="7" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Style="fsDouble" HGuides.Text="" VGuides.Text="">
-    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="204.09462" Left="0" Top="18.89765" Width="699.21305" Columns="4" ColumnWidth="151.181102362205" ColumnGap="3.77952755905512" DataSetName="Данные" RowCount="0">
-      <TfrxMemoView Name="Memo1" Left="3.77953" Top="3.77953" Width="64.25201" Height="18.89765" DataField="ЗАГОЛОВОК1" DataSetName="Данные" Memo.Text="[Данные.&#34;ЗАГОЛОВОК1&#34;]" Text="[Данные.&#34;ЗАГОЛОВОК1&#34;]"/>
-      <TfrxMemoView Name="Memo2" Left="3.77953" Top="26.45671" Width="124.72449" Height="18.89765" DataField="ЗАГОЛОВОК2" DataSetName="Данные" Memo.Text="[Данные.&#34;ЗАГОЛОВОК2&#34;]" Text="[Данные.&#34;ЗАГОЛОВОК2&#34;]"/>
-      <TfrxMemoView Name="Memo3" Left="3.77953" Top="45.35436" Width="105.82684" Height="18.89765" DataField="ЗАГОЛОВОК3" DataSetName="Данные" Memo.Text="[Данные.&#34;ЗАГОЛОВОК3&#34;]" Text="[Данные.&#34;ЗАГОЛОВОК3&#34;]"/>
-      <TfrxMemoView Name="Memo7" Left="0" Top="102.04731" Width="143.62214" Height="68.03154" DataField="ПРОИЗВОДИТЕЛЬ" DataSetName="Данные" Memo.Text="[Данные.&#34;ПРОИЗВОДИТЕЛЬ&#34;]" Text="[Данные.&#34;ПРОИЗВОДИТЕЛЬ&#34;]"/>
-      <TfrxMemoView Name="Memo8" Left="3.77953" Top="64.25201" Width="132.28355" Height="18.89765" DataField="ЕДИНИЦЫ ИЗМЕРЕНИЯ" DataSetName="Данные" Memo.Text="[Данные.&#34;ЕДИНИЦЫ ИЗМЕРЕНИЯ&#34;]" Text="[Данные.&#34;ЕДИНИЦЫ ИЗМЕРЕНИЯ&#34;]"/>
-      <TfrxMemoView Name="Memo9" Left="0" Top="79.37013" Width="79.37013" Height="18.89765" DataField="ЦЕНА" DataSetName="Данные" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" Text="[Данные.&#34;ЦЕНА&#34;]"/>
-      <TfrxMemoView Name="Memo5" Left="3.77953" Top="177.63791" Width="124.72449" Height="18.89765" DataField="СТРАНА" DataSetName="Данные" Memo.Text="[Данные.&#34;СТРАНА&#34;]" Text="[Данные.&#34;СТРАНА&#34;]"/>
+  <TfrxReportPage Name="Page1" Font.Color="0" Font.Height="-13" Font.Name="Ubuntu" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Style="fsDouble" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="1016.69357" Left="0" Top="16" Width="718.1107">
+      <TfrxLineView Name="Line1" Left="340.1577" Top="94.48825" Width="279.68522" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line2" Left="619.84292" Top="94.48825" Width="0" Height="113.3859" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line3" Left="540.47279" Top="207.87415" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line4" Left="540.47279" Top="94.48825" Width="0" Height="241.88992" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line5" Left="340.1577" Top="94.48825" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line6" Left="45.35436" Top="132.28355" Width="495.11843" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line8" Left="340.1577" Top="181.41744" Width="200.31509" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line10" Left="340.1577" Top="158.74026" Width="0" Height="71.81107" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line11" Left="83.14966" Top="120.94496" Width="257.00804" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line13" Left="83.14966" Top="147.62214" Width="257.00804" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line14" Left="41.57483" Top="158.74026" Width="498.89796" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line15" Left="41.57483" Top="181.41744" Width="313.70099" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line16" Left="41.57483" Top="196.53556" Width="298.58287" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line17" Left="41.57483" Top="207.87415" Width="298.58287" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line18" Left="41.57483" Top="230.55133" Width="578.26809" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line19" Left="340.1577" Top="257.00804" Width="185.19697" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line20" Left="41.57483" Top="268.34663" Width="483.77984" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line21" Left="340.1577" Top="279.68522" Width="185.19697" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line22" Left="340.1577" Top="291.02381" Width="185.19697" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line23" Left="128.50402" Top="302.3624" Width="41.57483" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line24" Left="128.50402" Top="336.37817" Width="154.96073" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line25" Left="41.57483" Top="351.49629" Width="64.25201" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line26" Left="128.50402" Top="366.61441" Width="154.96073" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line27" Left="41.57483" Top="381.73253" Width="98.26778" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line28" Left="158.74026" Top="393.07112" Width="124.72449" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line29" Left="75.5906" Top="415.7483" Width="60.47248" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line30" Left="200.31509" Top="415.7483" Width="64.25201" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line31" Left="355.27582" Top="415.7483" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line32" Left="540.47279" Top="257.00804" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line33" Left="540.47279" Top="268.34663" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line34" Left="540.47279" Top="279.68522" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line35" Left="540.47279" Top="291.02381" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line36" Left="540.47279" Top="302.3624" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line38" Left="593.38621" Top="230.55133" Width="0" Height="105.82684" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo4" Left="45.35436" Top="22.67718" Width="30.23624" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="1й экз." ParentFont="0" VAlign="vaCenter" Text="1й экз."/>
+      <TfrxMemoView Name="Memo6" Left="41.57483" Top="105.82684" Width="37.7953" Height="15.11812" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="От (кого)" ParentFont="0" VAlign="vaBottom" Text="От (кого)"/>
+      <TfrxMemoView Name="Memo10" Left="90.70872" Top="105.82684" Width="249.44898" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="ООО &#34;ПарфюмТрейд&#34; магазин" ParentFont="0" Text="ООО &#34;ПарфюмТрейд&#34; магазин"/>
+      <TfrxMemoView Name="Memo11" Left="0" Top="37.7953" Width="718.1107" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="ПРЕПРОВОДИТЕЛЬНАЯ ВЕДОМОСТЬ" ParentFont="0" Text="ПРЕПРОВОДИТЕЛЬНАЯ ВЕДОМОСТЬ"/>
+      <TfrxMemoView Name="Memo12" Left="211.65368" Top="49.13389" Width="177.63791" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" Memo.Text="к сумке с денежной выручкой №" ParentFont="0" Text="к сумке с денежной выручкой №"/>
+      <TfrxMemoView Name="Memo8" Left="393.07112" Top="49.13389" Width="132.28355" Height="15.11812" DataField="ЕДИНИЦЫ ИЗМЕРЕНИЯ" DataSetName="Данные" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" Font.Style="1" Memo.Text="[Данные.&#34;ЕДИНИЦЫ ИЗМЕРЕНИЯ&#34;]" ParentFont="0" Text="[Данные.&#34;ЕДИНИЦЫ ИЗМЕРЕНИЯ&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="0" Top="60.47248" Width="718.1107" Height="15.11812" DataField="СТРАНА" DataSetName="Данные" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;СТРАНА&#34;]" ParentFont="0" Text="[Данные.&#34;СТРАНА&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="340.1577" Top="75.5906" Width="200.31509" Height="18.89765" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="ДЕБЕТ" ParentFont="0" VAlign="vaBottom" Text="ДЕБЕТ"/>
+      <TfrxMemoView Name="Memo14" Left="540.47279" Top="75.5906" Width="75.5906" Height="18.89765" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" Memo.Text="СУММА" ParentFont="0" VAlign="vaBottom" Text="СУММА"/>
+      <TfrxMemoView Name="Memo9" Left="540.47279" Top="94.48825" Width="79.37013" Height="113.3859" DataSetName="Данные" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Color="0" Font.Height="-13" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo15" Left="340.1577" Top="120.94496" Width="49.13389" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="счет №" ParentFont="0" VAlign="vaCenter" Text="счет №"/>
+      <TfrxMemoView Name="Memo16" Left="389.29159" Top="117.16543" Width="151.1812" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="1050" ParentFont="0" VAlign="vaCenter" Text="1050"/>
+      <TfrxMemoView Name="Memo17" Left="41.57483" Top="132.28355" Width="52.91342" Height="15.11812" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Получатель" ParentFont="0" VAlign="vaBottom" Text="Получатель"/>
+      <TfrxMemoView Name="Memo18" Left="98.26778" Top="132.28355" Width="241.88992" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="ООО &#34;ПарфюмТрейд&#34;" ParentFont="0" VAlign="vaCenter" Text="ООО &#34;ПарфюмТрейд&#34;"/>
+      <TfrxMemoView Name="Memo19" Left="340.1577" Top="143.62214" Width="200.31509" Height="15.11812" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="КРЕДИТ" ParentFont="0" VAlign="vaCenter" Text="КРЕДИТ"/>
+      <TfrxMemoView Name="Memo20" Left="366.61441" Top="162.51979" Width="173.85838" Height="18.89765" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="BY25 PJCB 3012 0543681010000933" ParentFont="0" VAlign="vaCenter" Text="BY25 PJCB 3012 0543681010000933"/>
+      <TfrxMemoView Name="Memo21" Left="340.1577" Top="170.07885" Width="49.13389" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="счет №" ParentFont="0" VAlign="vaCenter" Text="счет №"/>
+      <TfrxLineView Name="Line7" Left="619.84292" Top="204.09462" Width="0" Height="132.28355" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line9" Left="540.47279" Top="336.37817" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo23" Left="41.57483" Top="170.07885" Width="83.14966" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Для зачисления на счет" ParentFont="0" VAlign="vaBottom" Text="Для зачисления на счет"/>
+      <TfrxMemoView Name="Memo24" Left="41.57483" Top="196.53556" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Сумма прописью" ParentFont="0" VAlign="vaBottom" Text="Сумма прописью"/>
+      <TfrxMemoView Name="Memo25" Left="41.57483" Top="185.19697" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Банк получателя" ParentFont="0" VAlign="vaBottom" Text="Банк получателя"/>
+      <TfrxMemoView Name="Memo7" Left="41.57483" Top="205.09462" Width="298.58287" Height="56.69295" DataField="ПРОИЗВОДИТЕЛЬ" DataSetName="Данные" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" Memo.Text="[Данные.&#34;ПРОИЗВОДИТЕЛЬ&#34;]" ParentFont="0" Text="[Данные.&#34;ПРОИЗВОДИТЕЛЬ&#34;]"/>
+      <TfrxMemoView Name="Memo26" Left="170.07885" Top="158.74026" Width="83.14966" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="наличными" ParentFont="0" Text="наличными"/>
+      <TfrxMemoView Name="Memo27" Left="154.96073" Top="166.29932" Width="109.60637" Height="15.11812" DataSetName="Данные" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Color="0" Font.Height="-13" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo28" Left="540.47279" Top="196.53556" Width="79.37013" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Общая" ParentFont="0" Text="Общая"/>
+      <TfrxMemoView Name="Memo29" Left="540.47279" Top="207.87415" Width="79.37013" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Код отчетности" ParentFont="0" Text="Код отчетности"/>
+      <TfrxMemoView Name="Memo30" Left="540.47279" Top="219.21274" Width="52.91342" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Общая" ParentFont="0" Text="Общая"/>
+      <TfrxMemoView Name="Memo31" Left="593.38621" Top="219.21274" Width="26.45671" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Код" ParentFont="0" Text="Код"/>
+      <TfrxLineView Name="Line12" Left="540.47279" Top="245.66945" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo32" Left="593.38621" Top="230.55133" Width="26.45671" Height="15.11812" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="2004" ParentFont="0" VAlign="vaCenter" Text="2004"/>
+      <TfrxMemoView Name="Memo33" Left="540.47279" Top="230.55133" Width="52.91342" Height="15.11812" DataSetName="Данные" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Color="0" Font.Height="-8" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo34" Left="132.28355" Top="181.41744" Width="204.09462" Height="15.11812" Font.Color="0" Font.Height="-12" Font.Name="Ubuntu" Memo.Text="&#34;Приорбанк&#34; ОАО , БИК PJCBBY2X" ParentFont="0" VAlign="vaBottom" Text="&#34;Приорбанк&#34; ОАО , БИК PJCBBY2X"/>
+      <TfrxMemoView Name="Memo35" Left="377.953" Top="249.44898" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo37" Left="377.953" Top="272.12616" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo38" Left="98.26778" Top="260.78757" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo36" Left="377.953" Top="283.46475" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo39" Left="41.57483" Top="249.44898" Width="294.80334" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Руководитель организации (индивидуальный предприниматель)" ParentFont="0" VAlign="vaCenter" Text="Руководитель организации (индивидуальный предприниматель)"/>
+      <TfrxMemoView Name="Memo40" Left="41.57483" Top="260.78757" Width="37.7953" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Кассир" ParentFont="0" VAlign="vaCenter" Text="Кассир"/>
+      <TfrxMemoView Name="Memo41" Left="294.80334" Top="272.12616" Width="37.7953" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Кассир" ParentFont="0" VAlign="vaCenter" Text="Кассир"/>
+      <TfrxMemoView Name="Memo42" Left="294.80334" Top="283.46475" Width="41.57483" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Контролер" ParentFont="0" VAlign="vaCenter" Text="Контролер"/>
+      <TfrxMemoView Name="Memo43" Left="41.57483" Top="268.34663" Width="234.33086" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Указанная выше сумма принята полностью." ParentFont="0" VAlign="vaCenter" Text="Указанная выше сумма принята полностью."/>
+      <TfrxMemoView Name="Memo44" Left="540.47279" Top="313.70099" Width="52.91342" Height="22.67718" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Назначение платежа" ParentFont="0" VAlign="vaBottom" Text="Назначение платежа"/>
+      <TfrxMemoView Name="Memo45" Left="41.57483" Top="408.18924" Width="37.7953" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Кассир" ParentFont="0" VAlign="vaCenter" Text="Кассир"/>
+      <TfrxMemoView Name="Memo46" Left="151.1812" Top="408.18924" Width="41.57483" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Контролер" ParentFont="0" VAlign="vaCenter" Text="Контролер"/>
+      <TfrxMemoView Name="Memo47" Left="268.34663" Top="408.18924" Width="86.92919" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Представитель клиента" ParentFont="0" VAlign="vaCenter" Text="Представитель клиента"/>
+      <TfrxLineView Name="Line37" Left="177.63791" Top="302.3624" Width="49.13389" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line39" Left="234.33086" Top="302.3624" Width="41.57483" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo48" Left="275.90569" Top="294.80334" Width="7.55906" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="г." ParentFont="0" VAlign="vaBottom" Text="г."/>
+      <TfrxMemoView Name="Memo49" Left="41.57483" Top="291.02381" Width="71.81107" Height="11.33859" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haRight" Memo.Text="АКТ" ParentFont="0" VAlign="vaCenter" Text="АКТ"/>
+      <TfrxMemoView Name="Memo50" Left="41.57483" Top="302.3624" Width="294.80334" Height="15.11812" Font.Color="0" Font.Height="-8" Font.Name="Ubuntu" Memo.Text="При вскрытии сумки и пересчете вложений оказалось:" ParentFont="0" VAlign="vaCenter" Text="При вскрытии сумки и пересчете вложений оказалось:"/>
+      <TfrxMemoView Name="Memo51" Left="41.57483" Top="325.03958" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="наличными (руб.)" ParentFont="0" VAlign="vaBottom" Text="наличными (руб.)"/>
+      <TfrxMemoView Name="Memo52" Left="41.57483" Top="351.49629" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="излишек (руб.)" ParentFont="0" Text="излишек (руб.)"/>
+      <TfrxMemoView Name="Memo53" Left="41.57483" Top="340.1577" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="недостача" ParentFont="0" VAlign="vaBottom" Text="недостача"/>
+      <TfrxMemoView Name="Memo54" Left="41.57483" Top="370.39394" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="неплатежных" ParentFont="0" VAlign="vaBottom" Text="неплатежных"/>
+      <TfrxMemoView Name="Memo55" Left="41.57483" Top="381.73253" Width="79.37013" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="и сомнительных (руб.)" ParentFont="0" Text="и сомнительных (руб.)"/>
+      <TfrxLineView Name="Line40" Left="7.55906" Top="502.67749" Width="687.87446" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line41" Left="340.1577" Top="619.84292" Width="279.68522" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line42" Left="619.84292" Top="619.84292" Width="0" Height="113.3859" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line43" Left="540.47279" Top="733.22882" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line44" Left="540.47279" Top="619.84292" Width="0" Height="241.88992" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line45" Left="340.1577" Top="619.84292" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line46" Left="45.35436" Top="657.63822" Width="495.11843" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line47" Left="340.1577" Top="706.77211" Width="200.31509" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line48" Left="340.1577" Top="684.09493" Width="0" Height="71.81107" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line49" Left="83.14966" Top="646.29963" Width="257.00804" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line50" Left="83.14966" Top="672.97681" Width="257.00804" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line51" Left="41.57483" Top="684.09493" Width="498.89796" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line52" Left="41.57483" Top="706.77211" Width="313.70099" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line53" Left="41.57483" Top="721.89023" Width="298.58287" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line54" Left="41.57483" Top="733.22882" Width="298.58287" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line55" Left="41.57483" Top="755.906" Width="578.26809" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line56" Left="340.1577" Top="782.36271" Width="185.19697" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line57" Left="41.57483" Top="793.7013" Width="483.77984" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line58" Left="340.1577" Top="805.03989" Width="185.19697" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line59" Left="340.1577" Top="816.37848" Width="185.19697" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line60" Left="128.50402" Top="827.71707" Width="41.57483" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line61" Left="128.50402" Top="861.73284" Width="154.96073" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line62" Left="41.57483" Top="876.85096" Width="64.25201" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line63" Left="128.50402" Top="891.96908" Width="154.96073" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line64" Left="41.57483" Top="907.0872" Width="98.26778" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line65" Left="158.74026" Top="918.42579" Width="124.72449" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line66" Left="75.5906" Top="941.10297" Width="60.47248" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line67" Left="200.31509" Top="941.10297" Width="64.25201" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line68" Left="355.27582" Top="941.10297" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line69" Left="540.47279" Top="782.36271" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line70" Left="540.47279" Top="793.7013" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line71" Left="540.47279" Top="805.03989" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line72" Left="540.47279" Top="816.37848" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line73" Left="540.47279" Top="827.71707" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line74" Left="593.38621" Top="755.906" Width="0" Height="105.82684" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo56" Left="45.35436" Top="548.03185" Width="30.23624" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="2й экз." ParentFont="0" VAlign="vaCenter" Text="2й экз."/>
+      <TfrxMemoView Name="Memo57" Left="41.57483" Top="631.18151" Width="37.7953" Height="15.11812" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="От (кого)" ParentFont="0" VAlign="vaBottom" Text="От (кого)"/>
+      <TfrxMemoView Name="Memo58" Left="90.70872" Top="631.18151" Width="249.44898" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="ООО &#34;ПарфюмТрейд&#34; магазин" ParentFont="0" Text="ООО &#34;ПарфюмТрейд&#34; магазин"/>
+      <TfrxMemoView Name="Memo59" Left="0" Top="563.14997" Width="718.1107" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="НАКЛАДНАЯ" ParentFont="0" Text="НАКЛАДНАЯ"/>
+      <TfrxMemoView Name="Memo60" Left="211.65368" Top="574.48856" Width="177.63791" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" Memo.Text="к сумке с денежной выручкой №" ParentFont="0" Text="к сумке с денежной выручкой №"/>
+      <TfrxMemoView Name="Memo61" Left="393.07112" Top="574.48856" Width="132.28355" Height="15.11812" DataField="ЕДИНИЦЫ ИЗМЕРЕНИЯ" DataSetName="Данные" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" Font.Style="1" Memo.Text="[Данные.&#34;ЕДИНИЦЫ ИЗМЕРЕНИЯ&#34;]" ParentFont="0" Text="[Данные.&#34;ЕДИНИЦЫ ИЗМЕРЕНИЯ&#34;]"/>
+      <TfrxMemoView Name="Memo62" Left="0" Top="585.82715" Width="718.1107" Height="15.11812" DataField="СТРАНА" DataSetName="Данные" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;СТРАНА&#34;]" ParentFont="0" Text="[Данные.&#34;СТРАНА&#34;]"/>
+      <TfrxMemoView Name="Memo63" Left="340.1577" Top="600.94527" Width="200.31509" Height="18.89765" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="ДЕБЕТ" ParentFont="0" VAlign="vaBottom" Text="ДЕБЕТ"/>
+      <TfrxMemoView Name="Memo64" Left="540.47279" Top="600.94527" Width="75.5906" Height="18.89765" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" Memo.Text="СУММА" ParentFont="0" VAlign="vaBottom" Text="СУММА"/>
+      <TfrxMemoView Name="Memo65" Left="540.47279" Top="619.84292" Width="79.37013" Height="113.3859" DataSetName="Данные" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Color="0" Font.Height="-13" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo66" Left="340.1577" Top="646.29963" Width="49.13389" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="счет №" ParentFont="0" VAlign="vaCenter" Text="счет №"/>
+      <TfrxMemoView Name="Memo67" Left="389.29159" Top="642.5201" Width="151.1812" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="1050" ParentFont="0" VAlign="vaCenter" Text="1050"/>
+      <TfrxMemoView Name="Memo68" Left="41.57483" Top="657.63822" Width="52.91342" Height="15.11812" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Получатель" ParentFont="0" VAlign="vaBottom" Text="Получатель"/>
+      <TfrxMemoView Name="Memo69" Left="98.26778" Top="657.63822" Width="241.88992" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="ООО &#34;ПарфюмТрейд&#34;" ParentFont="0" VAlign="vaCenter" Text="ООО &#34;ПарфюмТрейд&#34;"/>
+      <TfrxMemoView Name="Memo70" Left="340.1577" Top="668.97681" Width="200.31509" Height="15.11812" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="КРЕДИТ" ParentFont="0" VAlign="vaCenter" Text="КРЕДИТ"/>
+      <TfrxMemoView Name="Memo71" Left="366.61441" Top="687.87446" Width="173.85838" Height="18.89765" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="BY25 PJCB 3012 0543681010000933" ParentFont="0" VAlign="vaCenter" Text="BY25 PJCB 3012 0543681010000933"/>
+      <TfrxMemoView Name="Memo72" Left="340.1577" Top="695.43352" Width="49.13389" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="счет №" ParentFont="0" VAlign="vaCenter" Text="счет №"/>
+      <TfrxLineView Name="Line75" Left="619.84292" Top="729.44929" Width="0" Height="132.28355" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line76" Left="540.47279" Top="861.73284" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo74" Left="41.57483" Top="695.43352" Width="83.14966" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Для зачисления на счет" ParentFont="0" VAlign="vaBottom" Text="Для зачисления на счет"/>
+      <TfrxMemoView Name="Memo75" Left="41.57483" Top="721.89023" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Сумма прописью" ParentFont="0" VAlign="vaBottom" Text="Сумма прописью"/>
+      <TfrxMemoView Name="Memo76" Left="41.57483" Top="710.55164" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Банк получателя" ParentFont="0" VAlign="vaBottom" Text="Банк получателя"/>
+      <TfrxMemoView Name="Memo77" Left="41.57483" Top="729.44929" Width="298.58287" Height="56.69295" DataField="ПРОИЗВОДИТЕЛЬ" DataSetName="Данные" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" Memo.Text="[Данные.&#34;ПРОИЗВОДИТЕЛЬ&#34;]" ParentFont="0" Text="[Данные.&#34;ПРОИЗВОДИТЕЛЬ&#34;]"/>
+      <TfrxMemoView Name="Memo78" Left="170.07885" Top="684.09493" Width="83.14966" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="наличными" ParentFont="0" Text="наличными"/>
+      <TfrxMemoView Name="Memo79" Left="154.96073" Top="691.65399" Width="109.60637" Height="15.11812" DataSetName="Данные" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Color="0" Font.Height="-13" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo80" Left="540.47279" Top="721.89023" Width="79.37013" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Общая" ParentFont="0" Text="Общая"/>
+      <TfrxMemoView Name="Memo81" Left="540.47279" Top="733.22882" Width="79.37013" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Код отчетности" ParentFont="0" Text="Код отчетности"/>
+      <TfrxMemoView Name="Memo82" Left="540.47279" Top="744.56741" Width="52.91342" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Общая" ParentFont="0" Text="Общая"/>
+      <TfrxMemoView Name="Memo83" Left="593.38621" Top="744.56741" Width="26.45671" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Код" ParentFont="0" Text="Код"/>
+      <TfrxLineView Name="Line77" Left="540.47279" Top="771.02412" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo84" Left="593.38621" Top="755.906" Width="26.45671" Height="15.11812" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="2004" ParentFont="0" VAlign="vaCenter" Text="2004"/>
+      <TfrxMemoView Name="Memo85" Left="540.47279" Top="755.906" Width="52.91342" Height="15.11812" DataSetName="Данные" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Color="0" Font.Height="-8" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo86" Left="132.28355" Top="706.77211" Width="204.09462" Height="15.11812" Font.Color="0" Font.Height="-12" Font.Name="Ubuntu" Memo.Text="&#34;Приорбанк&#34; ОАО , БИК PJCBBY2X" ParentFont="0" VAlign="vaBottom" Text="&#34;Приорбанк&#34; ОАО , БИК PJCBBY2X"/>
+      <TfrxMemoView Name="Memo87" Left="377.953" Top="774.80365" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo88" Left="377.953" Top="797.48083" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo89" Left="98.26778" Top="786.14224" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo90" Left="377.953" Top="808.81942" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo91" Left="41.57483" Top="774.80365" Width="294.80334" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Руководитель организации (индивидуальный предприниматель)" ParentFont="0" VAlign="vaCenter" Text="Руководитель организации (индивидуальный предприниматель)"/>
+      <TfrxMemoView Name="Memo92" Left="41.57483" Top="786.14224" Width="37.7953" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Кассир" ParentFont="0" VAlign="vaCenter" Text="Кассир"/>
+      <TfrxMemoView Name="Memo93" Left="294.80334" Top="797.48083" Width="37.7953" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Кассир" ParentFont="0" VAlign="vaCenter" Text="Кассир"/>
+      <TfrxMemoView Name="Memo94" Left="294.80334" Top="808.81942" Width="41.57483" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Контролер" ParentFont="0" VAlign="vaCenter" Text="Контролер"/>
+      <TfrxMemoView Name="Memo95" Left="41.57483" Top="793.7013" Width="234.33086" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Указанная выше сумма принята полностью." ParentFont="0" VAlign="vaCenter" Text="Указанная выше сумма принята полностью."/>
+      <TfrxMemoView Name="Memo96" Left="540.47279" Top="839.05566" Width="52.91342" Height="22.67718" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Назначение платежа" ParentFont="0" VAlign="vaBottom" Text="Назначение платежа"/>
+      <TfrxMemoView Name="Memo97" Left="41.57483" Top="933.54391" Width="37.7953" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Кассир" ParentFont="0" VAlign="vaCenter" Text="Кассир"/>
+      <TfrxMemoView Name="Memo98" Left="151.1812" Top="933.54391" Width="41.57483" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Контролер" ParentFont="0" VAlign="vaCenter" Text="Контролер"/>
+      <TfrxMemoView Name="Memo99" Left="268.34663" Top="933.54391" Width="86.92919" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Представитель клиента" ParentFont="0" VAlign="vaCenter" Text="Представитель клиента"/>
+      <TfrxLineView Name="Line78" Left="177.63791" Top="827.71707" Width="49.13389" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line79" Left="234.33086" Top="827.71707" Width="41.57483" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo100" Left="275.90569" Top="820.15801" Width="7.55906" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="г." ParentFont="0" VAlign="vaBottom" Text="г."/>
+      <TfrxMemoView Name="Memo101" Left="41.57483" Top="816.37848" Width="71.81107" Height="11.33859" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haRight" Memo.Text="АКТ" ParentFont="0" VAlign="vaCenter" Text="АКТ"/>
+      <TfrxMemoView Name="Memo102" Left="41.57483" Top="827.71707" Width="294.80334" Height="15.11812" Font.Color="0" Font.Height="-8" Font.Name="Ubuntu" Memo.Text="При вскрытии сумки и пересчете вложений оказалось:" ParentFont="0" VAlign="vaCenter" Text="При вскрытии сумки и пересчете вложений оказалось:"/>
+      <TfrxMemoView Name="Memo103" Left="41.57483" Top="850.39425" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="наличными (руб.)" ParentFont="0" VAlign="vaBottom" Text="наличными (руб.)"/>
+      <TfrxMemoView Name="Memo104" Left="41.57483" Top="876.85096" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="излишек (руб.)" ParentFont="0" Text="излишек (руб.)"/>
+      <TfrxMemoView Name="Memo105" Left="41.57483" Top="865.51237" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="недостача" ParentFont="0" VAlign="vaBottom" Text="недостача"/>
+      <TfrxMemoView Name="Memo106" Left="41.57483" Top="895.74861" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="неплатежных" ParentFont="0" VAlign="vaBottom" Text="неплатежных"/>
+      <TfrxMemoView Name="Memo107" Left="41.57483" Top="907.0872" Width="79.37013" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="и сомнительных (руб.)" ParentFont="0" Text="и сомнительных (руб.)"/>
+      <TfrxLineView Name="Line80" Left="41.57483" Top="219.21274" Width="298.58287" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line87" Left="41.57483" Top="744.56741" Width="298.58287" Height="0" Color="0" Frame.Typ="4"/>
+    </TfrxReportTitle>
+  </TfrxReportPage>
+  <TfrxReportPage Name="Page2" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="15" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="109.60637" Left="0" Top="18.89765" Width="718.1107">
+      <TfrxMemoView Name="Memo22" Left="0" Top="15.11812" Width="714.33117" Height="26.45671" Font.Color="0" Font.Height="-8" Font.Name="Arial" Frame.Typ="15" HAlign="haRight" Memo.Text="Оборотная сторона 1-го экземпляра" ParentFont="0" Text="Оборотная сторона 1-го экземпляра"/>
+      <TfrxMemoView Name="Memo73" Left="0" Top="41.57483" Width="336.37817" Height="30.23624" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="11" HAlign="haCenter" Memo.Text="Опись сдаваемых наличных денег по номиналам банкнот и монет" ParentFont="0" VAlign="vaCenter" Text="Опись сдаваемых наличных денег по номиналам банкнот и монет"/>
+      <TfrxMemoView Name="Memo108" Left="336.37817" Top="41.57483" Width="377.953" Height="30.23624" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Опись сдаваемых наличных денег по номиналам банкнот и монет" ParentFont="0" VAlign="vaCenter" Text="Опись сдаваемых наличных денег по номиналам банкнот и монет"/>
+      <TfrxMemoView Name="Memo109" Left="0" Top="71.47248" Width="117.16543" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="11" HAlign="haCenter" Memo.Text="Номинал" ParentFont="0" VAlign="vaCenter" Text="Номинал"/>
+      <TfrxMemoView Name="Memo110" Left="117.16543" Top="71.47248" Width="105.82684" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Количество" ParentFont="0" VAlign="vaCenter" Text="Количество"/>
+      <TfrxMemoView Name="Memo111" Left="222.99227" Top="71.47248" Width="113.3859" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Сумма" ParentFont="0" VAlign="vaCenter" Text="Сумма"/>
+      <TfrxMemoView Name="Memo112" Left="336.37817" Top="71.81107" Width="102.04731" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Номинал" ParentFont="0" VAlign="vaCenter" Text="Номинал"/>
+      <TfrxMemoView Name="Memo115" Left="0" Top="90.37013" Width="117.16543" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="11" HAlign="haCenter" Memo.Text="1" ParentFont="0" VAlign="vaCenter" Text="1"/>
+      <TfrxMemoView Name="Memo116" Left="117.16543" Top="90.37013" Width="105.82684" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="2" ParentFont="0" VAlign="vaCenter" Text="2"/>
+      <TfrxMemoView Name="Memo117" Left="222.99227" Top="90.37013" Width="113.3859" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="3" ParentFont="0" VAlign="vaCenter" Text="3"/>
+      <TfrxMemoView Name="Memo118" Left="336.37817" Top="90.70872" Width="102.04731" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="4" ParentFont="0" VAlign="vaCenter" Text="4"/>
+      <TfrxMemoView Name="Memo113" Left="438.42548" Top="71.81107" Width="162.51979" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Количество" ParentFont="0" VAlign="vaCenter" Text="Количество"/>
+      <TfrxMemoView Name="Memo114" Left="600.94527" Top="71.81107" Width="113.3859" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Сумма" ParentFont="0" VAlign="vaCenter" Text="Сумма"/>
+      <TfrxMemoView Name="Memo119" Left="438.42548" Top="90.70872" Width="162.51979" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="5" ParentFont="0" VAlign="vaCenter" Text="5"/>
+      <TfrxMemoView Name="Memo120" Left="600.94527" Top="90.70872" Width="113.3859" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="6" ParentFont="0" VAlign="vaCenter" Text="6"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="19.11812" Left="0" Top="188.9765" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSetName="Данные" RowCount="0">
+      <TfrxMemoView Name="Memo121" Left="0" Top="0" Width="117.16543" Height="18.89765" DataField="ЗАГОЛОВОК1" DataSetName="Данные" Font.Color="0" Font.Height="-13" Font.Name="Arial" Frame.Typ="11" HAlign="haCenter" Memo.Text="[Данные.&#34;ЗАГОЛОВОК1&#34;]" ParentFont="0" Text="[Данные.&#34;ЗАГОЛОВОК1&#34;]"/>
+      <TfrxMemoView Name="Memo122" Left="117.16543" Top="0" Width="105.82684" Height="18.89765" DataField="ЗАГОЛОВОК2" DataSetName="Данные" Font.Color="0" Font.Height="-13" Font.Name="Arial" Frame.Typ="10" HAlign="haCenter" Memo.Text="[Данные.&#34;ЗАГОЛОВОК2&#34;]" ParentFont="0" Text="[Данные.&#34;ЗАГОЛОВОК2&#34;]"/>
+      <TfrxMemoView Name="Memo123" Left="222.99227" Top="0" Width="83.14966" Height="18.89765" DataField="ЗАГОЛОВОК3" DataSetName="Данные" Font.Color="0" Font.Height="-13" Font.Name="Arial" Frame.Typ="8" HAlign="haRight" Memo.Text="[Данные.&#34;ЗАГОЛОВОК3&#34;]" ParentFont="0" Text="[Данные.&#34;ЗАГОЛОВОК3&#34;]"/>
+      <TfrxLineView Name="Line84" Left="306.14193" Top="18.89765" Width="408.18924" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line88" Left="438.42548" Top="0" Width="0" Height="18.89765" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line89" Left="600.94527" Top="0.22047" Width="0" Height="18.89765" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line82" Left="336.37817" Top="0" Width="0" Height="18.89765" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line90" Left="714.33117" Top="0" Width="0" Height="18.89765" Color="0" Frame.Typ="1"/>
     </TfrxMasterData>
+    <TfrxFooter Name="Footer1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="94.48825" Left="0" Top="230.55133" Width="718.1107">
+      <TfrxShapeView Name="Shape5" Left="0" Top="0" Width="714.33117" Height="37.7953"/>
+      <TfrxMemoView Name="Memo1" Left="0" Top="0" Width="117.16543" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" Memo.Text="Итого" ParentFont="0" VAlign="vaCenter" Text="Итого"/>
+      <TfrxMemoView Name="Memo2" Left="0" Top="18.89765" Width="117.16543" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" HAlign="haCenter" Memo.Text="Всего" ParentFont="0" VAlign="vaCenter" Text="Всего"/>
+      <TfrxMemoView Name="Memo125" Left="336.37817" Top="0" Width="102.04731" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" Memo.Text="Итого" ParentFont="0" VAlign="vaCenter" Text="Итого"/>
+      <TfrxMemoView Name="Memo3" Left="222.99227" Top="0" Width="113.3859" Height="18.89765" DataField="ЦЕНА" DataSetName="Данные" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo124" Left="222.99227" Top="18.89765" Width="113.3859" Height="18.89765" DataField="ЦЕНА" DataSetName="Данные" Font.Color="0" Font.Height="-13" Font.Name="Arial" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxLineView Name="Line96" Left="0" Top="18.89765" Width="714.33117" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line97" Left="117.16543" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line98" Left="222.99227" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line99" Left="336.37817" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line100" Left="438.42548" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line101" Left="600.94527" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+    </TfrxFooter>
+    <TfrxMasterData Name="MasterData2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="19.11812" Left="0" Top="514.01608" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSetName="Данные" RowCount="0">
+      <TfrxMemoView Name="Memo149" Left="0" Top="0" Width="117.16543" Height="18.89765" DataField="ЗАГОЛОВОК1" DataSetName="Данные" Font.Color="0" Font.Height="-13" Font.Name="Arial" Frame.Typ="11" HAlign="haCenter" Memo.Text="[Данные.&#34;ЗАГОЛОВОК1&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЗАГОЛОВОК1&#34;]"/>
+      <TfrxMemoView Name="Memo150" Left="117.16543" Top="0" Width="105.82684" Height="18.89765" DataField="ЗАГОЛОВОК2" DataSetName="Данные" Font.Color="0" Font.Height="-13" Font.Name="Arial" Frame.Typ="10" HAlign="haCenter" Memo.Text="[Данные.&#34;ЗАГОЛОВОК2&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЗАГОЛОВОК2&#34;]"/>
+      <TfrxMemoView Name="Memo151" Left="222.99227" Top="0" Width="83.14966" Height="18.89765" DataField="ЗАГОЛОВОК3" DataSetName="Данные" Font.Color="0" Font.Height="-13" Font.Name="Arial" Frame.Typ="8" HAlign="haRight" Memo.Text="[Данные.&#34;ЗАГОЛОВОК3&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЗАГОЛОВОК3&#34;]"/>
+      <TfrxLineView Name="Line108" Left="306.14193" Top="18.89765" Width="408.18924" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line112" Left="438.42548" Top="0" Width="0" Height="18.89765" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line113" Left="600.94527" Top="0.22047" Width="0" Height="18.89765" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line86" Left="336.37817" Top="0" Width="0" Height="18.89765" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line115" Left="714.33117" Top="0" Width="0" Height="18.89765" Color="0" Frame.Typ="1"/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="37.7953" Left="0" Top="555.59091" Width="718.1107">
+      <TfrxMemoView Name="Memo141" Left="0" Top="0" Width="117.16543" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="1" HAlign="haCenter" Memo.Text="Итого" ParentFont="0" VAlign="vaCenter" Text="Итого"/>
+      <TfrxMemoView Name="Memo142" Left="0" Top="18.89765" Width="117.16543" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Frame.Typ="1" HAlign="haCenter" Memo.Text="Всего" ParentFont="0" VAlign="vaCenter" Text="Всего"/>
+      <TfrxMemoView Name="Memo143" Left="336.37817" Top="0" Width="102.04731" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" Memo.Text="Итого" ParentFont="0" VAlign="vaCenter" Text="Итого"/>
+      <TfrxMemoView Name="Memo144" Left="222.99227" Top="0" Width="113.3859" Height="18.89765" DataField="ЦЕНА" DataSetName="Данные" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo145" Left="222.99227" Top="18.89765" Width="113.3859" Height="18.89765" DataField="ЦЕНА" DataSetName="Данные" Font.Color="0" Font.Height="-13" Font.Name="Arial" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxLineView Name="Line116" Left="0" Top="18.89765" Width="714.33117" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line117" Left="117.16543" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line118" Left="222.99227" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line119" Left="336.37817" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line120" Left="438.42548" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line121" Left="600.94527" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line85" Left="0" Top="37.7953" Width="718.1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line83" Left="714.33117" Top="0" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+    </TfrxFooter>
+    <TfrxHeader Name="Header1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="143.62214" Left="0" Top="347.71676" Width="718.1107">
+      <TfrxLineView Name="Line81" Left="11.33859" Top="15.11812" Width="691.65399" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo126" Left="0" Top="52.91342" Width="714.33117" Height="22.67718" Font.Color="0" Font.Height="-8" Font.Name="Arial" Frame.Typ="15" HAlign="haRight" Memo.Text="Оборотная сторона 2-го экземпляра" ParentFont="0" Text="Оборотная сторона 2-го экземпляра"/>
+      <TfrxMemoView Name="Memo127" Left="0" Top="75.5906" Width="336.37817" Height="30.23624" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="11" HAlign="haCenter" Memo.Text="Опись сдаваемых наличных денег по номиналам банкнот и монет" ParentFont="0" VAlign="vaCenter" Text="Опись сдаваемых наличных денег по номиналам банкнот и монет"/>
+      <TfrxMemoView Name="Memo128" Left="336.37817" Top="75.5906" Width="377.953" Height="30.23624" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Опись сдаваемых наличных денег по номиналам банкнот и монет" ParentFont="0" VAlign="vaCenter" Text="Опись сдаваемых наличных денег по номиналам банкнот и монет"/>
+      <TfrxMemoView Name="Memo129" Left="0" Top="105.48825" Width="117.16543" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="11" HAlign="haCenter" Memo.Text="Номинал" ParentFont="0" VAlign="vaCenter" Text="Номинал"/>
+      <TfrxMemoView Name="Memo130" Left="117.16543" Top="105.48825" Width="105.82684" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Количество" ParentFont="0" VAlign="vaCenter" Text="Количество"/>
+      <TfrxMemoView Name="Memo131" Left="222.99227" Top="105.48825" Width="113.3859" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Сумма" ParentFont="0" VAlign="vaCenter" Text="Сумма"/>
+      <TfrxMemoView Name="Memo132" Left="336.37817" Top="105.82684" Width="102.04731" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Номинал" ParentFont="0" VAlign="vaCenter" Text="Номинал"/>
+      <TfrxMemoView Name="Memo133" Left="0" Top="124.3859" Width="117.16543" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="11" HAlign="haCenter" Memo.Text="1" ParentFont="0" VAlign="vaCenter" Text="1"/>
+      <TfrxMemoView Name="Memo134" Left="117.16543" Top="124.3859" Width="105.82684" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="2" ParentFont="0" VAlign="vaCenter" Text="2"/>
+      <TfrxMemoView Name="Memo135" Left="222.99227" Top="124.3859" Width="113.3859" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="3" ParentFont="0" VAlign="vaCenter" Text="3"/>
+      <TfrxMemoView Name="Memo136" Left="336.37817" Top="124.72449" Width="102.04731" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="4" ParentFont="0" VAlign="vaCenter" Text="4"/>
+      <TfrxMemoView Name="Memo137" Left="438.42548" Top="105.82684" Width="162.51979" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Количество" ParentFont="0" VAlign="vaCenter" Text="Количество"/>
+      <TfrxMemoView Name="Memo138" Left="600.94527" Top="105.82684" Width="113.3859" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="Сумма" ParentFont="0" VAlign="vaCenter" Text="Сумма"/>
+      <TfrxMemoView Name="Memo139" Left="438.42548" Top="124.72449" Width="162.51979" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="5" ParentFont="0" VAlign="vaCenter" Text="5"/>
+      <TfrxMemoView Name="Memo140" Left="600.94527" Top="124.72449" Width="113.3859" Height="18.89765" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="10" HAlign="haCenter" Memo.Text="6" ParentFont="0" VAlign="vaCenter" Text="6"/>
+    </TfrxHeader>
+  </TfrxReportPage>
+  <TfrxReportPage Name="Page3" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle3" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="1016.69357" Left="0" Top="18.89765" Width="718.1107">
+      <TfrxLineView Name="Line91" Left="340.1577" Top="94.48825" Width="279.68522" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line92" Left="619.84292" Top="94.48825" Width="0" Height="113.3859" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line93" Left="540.47279" Top="207.87415" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line94" Left="540.47279" Top="94.48825" Width="0" Height="241.88992" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line95" Left="340.1577" Top="94.48825" Width="0" Height="37.7953" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line102" Left="45.35436" Top="132.28355" Width="495.11843" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line103" Left="340.1577" Top="181.41744" Width="200.31509" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line104" Left="340.1577" Top="158.74026" Width="0" Height="71.81107" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line105" Left="83.14966" Top="120.94496" Width="257.00804" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line106" Left="83.14966" Top="147.62214" Width="257.00804" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line107" Left="41.57483" Top="158.74026" Width="498.89796" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line109" Left="41.57483" Top="181.41744" Width="313.70099" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line110" Left="41.57483" Top="196.53556" Width="298.58287" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line111" Left="41.57483" Top="207.87415" Width="298.58287" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line114" Left="41.57483" Top="230.55133" Width="578.26809" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line122" Left="340.1577" Top="257.00804" Width="185.19697" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line123" Left="41.57483" Top="268.34663" Width="483.77984" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line124" Left="340.1577" Top="279.68522" Width="185.19697" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line125" Left="340.1577" Top="291.02381" Width="185.19697" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line126" Left="128.50402" Top="302.3624" Width="41.57483" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line127" Left="128.50402" Top="336.37817" Width="154.96073" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line128" Left="41.57483" Top="351.49629" Width="64.25201" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line129" Left="128.50402" Top="366.61441" Width="154.96073" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line130" Left="41.57483" Top="381.73253" Width="98.26778" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line131" Left="158.74026" Top="393.07112" Width="124.72449" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line132" Left="75.5906" Top="415.7483" Width="60.47248" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line133" Left="200.31509" Top="415.7483" Width="64.25201" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line134" Left="355.27582" Top="415.7483" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line135" Left="540.47279" Top="257.00804" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line136" Left="540.47279" Top="268.34663" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line137" Left="540.47279" Top="279.68522" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line138" Left="540.47279" Top="291.02381" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line139" Left="540.47279" Top="302.3624" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line140" Left="593.38621" Top="230.55133" Width="0" Height="105.82684" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo146" Left="45.35436" Top="22.67718" Width="30.23624" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="3й экз." ParentFont="0" VAlign="vaCenter" Text="3й экз."/>
+      <TfrxMemoView Name="Memo147" Left="41.57483" Top="105.82684" Width="37.7953" Height="15.11812" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="От (кого)" ParentFont="0" VAlign="vaBottom" Text="От (кого)"/>
+      <TfrxMemoView Name="Memo148" Left="90.70872" Top="105.82684" Width="249.44898" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="ООО &#34;ПарфюмТрейд&#34; магазин" ParentFont="0" Text="ООО &#34;ПарфюмТрейд&#34; магазин"/>
+      <TfrxMemoView Name="Memo152" Left="0" Top="37.7953" Width="718.1107" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="копия препроводительной ведомости" ParentFont="0" Text="копия препроводительной ведомости"/>
+      <TfrxMemoView Name="Memo153" Left="211.65368" Top="49.13389" Width="177.63791" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" Memo.Text="к сумке с денежной выручкой №" ParentFont="0" Text="к сумке с денежной выручкой №"/>
+      <TfrxMemoView Name="Memo154" Left="393.07112" Top="49.13389" Width="132.28355" Height="15.11812" DataField="ЕДИНИЦЫ ИЗМЕРЕНИЯ" DataSetName="Данные" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" Font.Style="1" Memo.Text="[Данные.&#34;ЕДИНИЦЫ ИЗМЕРЕНИЯ&#34;]" ParentFont="0" Text="[Данные.&#34;ЕДИНИЦЫ ИЗМЕРЕНИЯ&#34;]"/>
+      <TfrxMemoView Name="Memo155" Left="0" Top="60.47248" Width="718.1107" Height="15.11812" DataField="СТРАНА" DataSetName="Данные" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;СТРАНА&#34;]" ParentFont="0" Text="[Данные.&#34;СТРАНА&#34;]"/>
+      <TfrxMemoView Name="Memo156" Left="340.1577" Top="75.5906" Width="200.31509" Height="18.89765" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="ДЕБЕТ" ParentFont="0" VAlign="vaBottom" Text="ДЕБЕТ"/>
+      <TfrxMemoView Name="Memo157" Left="540.47279" Top="75.5906" Width="75.5906" Height="18.89765" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" Memo.Text="СУММА" ParentFont="0" VAlign="vaBottom" Text="СУММА"/>
+      <TfrxMemoView Name="Memo158" Left="540.47279" Top="94.48825" Width="79.37013" Height="113.3859" DataSetName="Данные" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Color="0" Font.Height="-13" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo159" Left="340.1577" Top="120.94496" Width="49.13389" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="счет №" ParentFont="0" VAlign="vaCenter" Text="счет №"/>
+      <TfrxMemoView Name="Memo160" Left="389.29159" Top="117.16543" Width="151.1812" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="1050" ParentFont="0" VAlign="vaCenter" Text="1050"/>
+      <TfrxMemoView Name="Memo161" Left="41.57483" Top="132.28355" Width="52.91342" Height="15.11812" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Получатель" ParentFont="0" VAlign="vaBottom" Text="Получатель"/>
+      <TfrxMemoView Name="Memo162" Left="98.26778" Top="132.28355" Width="241.88992" Height="15.11812" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="ООО &#34;ПарфюмТрейд&#34;" ParentFont="0" VAlign="vaCenter" Text="ООО &#34;ПарфюмТрейд&#34;"/>
+      <TfrxMemoView Name="Memo163" Left="340.1577" Top="143.62214" Width="200.31509" Height="15.11812" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="КРЕДИТ" ParentFont="0" VAlign="vaCenter" Text="КРЕДИТ"/>
+      <TfrxMemoView Name="Memo164" Left="366.61441" Top="162.51979" Width="173.85838" Height="18.89765" Font.Color="0" Font.Height="-9" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="BY25 PJCB 3012 0543681010000933" ParentFont="0" VAlign="vaCenter" Text="BY25 PJCB 3012 0543681010000933"/>
+      <TfrxMemoView Name="Memo165" Left="340.1577" Top="170.07885" Width="49.13389" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="счет №" ParentFont="0" VAlign="vaCenter" Text="счет №"/>
+      <TfrxLineView Name="Line141" Left="619.84292" Top="204.09462" Width="0" Height="132.28355" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line142" Left="540.47279" Top="336.37817" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo166" Left="41.57483" Top="170.07885" Width="83.14966" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Для зачисления на счет" ParentFont="0" VAlign="vaBottom" Text="Для зачисления на счет"/>
+      <TfrxMemoView Name="Memo167" Left="41.57483" Top="196.53556" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Сумма прописью" ParentFont="0" VAlign="vaBottom" Text="Сумма прописью"/>
+      <TfrxMemoView Name="Memo168" Left="41.57483" Top="185.19697" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Банк получателя" ParentFont="0" VAlign="vaBottom" Text="Банк получателя"/>
+      <TfrxMemoView Name="Memo169" Left="41.57483" Top="205.09462" Width="298.58287" Height="56.69295" DataField="ПРОИЗВОДИТЕЛЬ" DataSetName="Данные" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" Memo.Text="[Данные.&#34;ПРОИЗВОДИТЕЛЬ&#34;]" ParentFont="0" Text="[Данные.&#34;ПРОИЗВОДИТЕЛЬ&#34;]"/>
+      <TfrxMemoView Name="Memo170" Left="170.07885" Top="158.74026" Width="83.14966" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="наличными" ParentFont="0" Text="наличными"/>
+      <TfrxMemoView Name="Memo171" Left="154.96073" Top="166.29932" Width="109.60637" Height="15.11812" DataSetName="Данные" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Color="0" Font.Height="-13" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo172" Left="540.47279" Top="196.53556" Width="79.37013" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Общая" ParentFont="0" Text="Общая"/>
+      <TfrxMemoView Name="Memo173" Left="540.47279" Top="207.87415" Width="79.37013" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Код отчетности" ParentFont="0" Text="Код отчетности"/>
+      <TfrxMemoView Name="Memo174" Left="540.47279" Top="219.21274" Width="52.91342" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Общая" ParentFont="0" Text="Общая"/>
+      <TfrxMemoView Name="Memo175" Left="593.38621" Top="219.21274" Width="26.45671" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="Код" ParentFont="0" Text="Код"/>
+      <TfrxLineView Name="Line143" Left="540.47279" Top="245.66945" Width="79.37013" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo176" Left="593.38621" Top="230.55133" Width="26.45671" Height="15.11812" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="2004" ParentFont="0" VAlign="vaCenter" Text="2004"/>
+      <TfrxMemoView Name="Memo177" Left="540.47279" Top="230.55133" Width="52.91342" Height="15.11812" DataSetName="Данные" DisplayFormat.FormatStr="%2.2f" DisplayFormat.Kind="fkNumeric" Font.Color="0" Font.Height="-8" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="[Данные.&#34;ЦЕНА&#34;]" ParentFont="0" VAlign="vaCenter" Text="[Данные.&#34;ЦЕНА&#34;]"/>
+      <TfrxMemoView Name="Memo178" Left="132.28355" Top="181.41744" Width="204.09462" Height="15.11812" Font.Color="0" Font.Height="-12" Font.Name="Ubuntu" Memo.Text="&#34;Приорбанк&#34; ОАО , БИК PJCBBY2X" ParentFont="0" VAlign="vaBottom" Text="&#34;Приорбанк&#34; ОАО , БИК PJCBBY2X"/>
+      <TfrxMemoView Name="Memo179" Left="377.953" Top="249.44898" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo180" Left="377.953" Top="272.12616" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo181" Left="98.26778" Top="260.78757" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo182" Left="377.953" Top="283.46475" Width="113.3859" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" HAlign="haCenter" Memo.Text="подпись" ParentFont="0" VAlign="vaCenter" Text="подпись"/>
+      <TfrxMemoView Name="Memo183" Left="41.57483" Top="249.44898" Width="294.80334" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Руководитель организации (индивидуальный предприниматель)" ParentFont="0" VAlign="vaCenter" Text="Руководитель организации (индивидуальный предприниматель)"/>
+      <TfrxMemoView Name="Memo184" Left="41.57483" Top="260.78757" Width="37.7953" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Кассир" ParentFont="0" VAlign="vaCenter" Text="Кассир"/>
+      <TfrxMemoView Name="Memo185" Left="294.80334" Top="272.12616" Width="37.7953" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Кассир" ParentFont="0" VAlign="vaCenter" Text="Кассир"/>
+      <TfrxMemoView Name="Memo186" Left="294.80334" Top="283.46475" Width="41.57483" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Контролер" ParentFont="0" VAlign="vaCenter" Text="Контролер"/>
+      <TfrxMemoView Name="Memo187" Left="41.57483" Top="268.34663" Width="234.33086" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Указанная выше сумма принята полностью." ParentFont="0" VAlign="vaCenter" Text="Указанная выше сумма принята полностью."/>
+      <TfrxMemoView Name="Memo188" Left="540.47279" Top="313.70099" Width="52.91342" Height="22.67718" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Назначение платежа" ParentFont="0" VAlign="vaBottom" Text="Назначение платежа"/>
+      <TfrxMemoView Name="Memo189" Left="41.57483" Top="408.18924" Width="37.7953" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Кассир" ParentFont="0" VAlign="vaCenter" Text="Кассир"/>
+      <TfrxMemoView Name="Memo190" Left="151.1812" Top="408.18924" Width="41.57483" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Контролер" ParentFont="0" VAlign="vaCenter" Text="Контролер"/>
+      <TfrxMemoView Name="Memo191" Left="268.34663" Top="408.18924" Width="86.92919" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="Представитель клиента" ParentFont="0" VAlign="vaCenter" Text="Представитель клиента"/>
+      <TfrxLineView Name="Line144" Left="177.63791" Top="302.3624" Width="49.13389" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line145" Left="234.33086" Top="302.3624" Width="41.57483" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo192" Left="275.90569" Top="294.80334" Width="7.55906" Height="7.55906" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="г." ParentFont="0" VAlign="vaBottom" Text="г."/>
+      <TfrxMemoView Name="Memo193" Left="41.57483" Top="291.02381" Width="71.81107" Height="11.33859" Font.Color="0" Font.Height="-11" Font.Name="Ubuntu" HAlign="haRight" Memo.Text="АКТ" ParentFont="0" VAlign="vaCenter" Text="АКТ"/>
+      <TfrxMemoView Name="Memo194" Left="41.57483" Top="302.3624" Width="294.80334" Height="15.11812" Font.Color="0" Font.Height="-8" Font.Name="Ubuntu" Memo.Text="При вскрытии сумки и пересчете вложений оказалось:" ParentFont="0" VAlign="vaCenter" Text="При вскрытии сумки и пересчете вложений оказалось:"/>
+      <TfrxMemoView Name="Memo195" Left="41.57483" Top="325.03958" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="наличными (руб.)" ParentFont="0" VAlign="vaBottom" Text="наличными (руб.)"/>
+      <TfrxMemoView Name="Memo196" Left="41.57483" Top="351.49629" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="излишек (руб.)" ParentFont="0" Text="излишек (руб.)"/>
+      <TfrxMemoView Name="Memo197" Left="41.57483" Top="340.1577" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="недостача" ParentFont="0" VAlign="vaBottom" Text="недостача"/>
+      <TfrxMemoView Name="Memo198" Left="41.57483" Top="370.39394" Width="75.5906" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="неплатежных" ParentFont="0" VAlign="vaBottom" Text="неплатежных"/>
+      <TfrxMemoView Name="Memo199" Left="41.57483" Top="381.73253" Width="79.37013" Height="11.33859" Font.Color="0" Font.Height="-7" Font.Name="Ubuntu" Memo.Text="и сомнительных (руб.)" ParentFont="0" Text="и сомнительных (руб.)"/>
+      <TfrxLineView Name="Line146" Left="7.55906" Top="502.67749" Width="687.87446" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line148" Left="415.7483" Top="559.37044" Width="0" Height="117.16543" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line186" Left="41.57483" Top="219.21274" Width="298.58287" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo200" Left="427.08689" Top="566.9295" Width="264.5671" Height="207.87415" Memo.Text="Данный экземпляр остается у организации (индивидуального предпринимателя) в качестве квитанции в приеме сумки." Text="Данный экземпляр остается у организации (индивидуального предпринимателя) в качестве квитанции в приеме сумки."/>
+      <TfrxMemoView Name="Memo201" Left="11.33859" Top="570.70903" Width="396.85065" Height="287.24428" Memo.Text="Денежная выручка вкладывается в сумку (мешок) для сдачи в банк.&#10;&#10;Денежная выручка подбирается по достоинствам. Оттиск пломбира должен быть четким.&#10;&#10;При сдаче сумки с денежной выручкой инкассатору требуйте от него: предъявления удостоверения личности инкассатора, доверенности на инкассацию денежной выручки и явочной карточки, заверенной печатью; выдачи порожней сумки, закрепленной за станцией железной дороги, взамен сумки с денежной выручкой; расписки на копии препроводительной ведомости и наложения на нее четкого оттиска печати в получении опломбированной сумки.&#10;&#10;Бережно обращайтесь с сумкой." Text="Денежная выручка вкладывается в сумку (мешок) для сдачи в банк.&#10;&#10;Денежная выручка подбирается по достоинствам. Оттиск пломбира должен быть четким.&#10;&#10;При сдаче сумки с денежной выручкой инкассатору требуйте от него: предъявления удостоверения личности инкассатора, доверенности на инкассацию денежной выручки и явочной карточки, заверенной печатью; выдачи порожней сумки, закрепленной за станцией железной дороги, взамен сумки с денежной выручкой; расписки на копии препроводительной ведомости и наложения на нее четкого оттиска печати в получении опломбированной сумки.&#10;&#10;Бережно обращайтесь с сумкой."/>
+      <TfrxMemoView Name="Memo202" Left="0" Top="532.91373" Width="691.65399" Height="26.45671" Font.Color="0" Font.Height="-8" Font.Name="Arial" Frame.Typ="15" HAlign="haRight" Memo.Text="Оборотная сторона 3-го экземпляра" ParentFont="0" Text="Оборотная сторона 3-го экземпляра"/>
+    </TfrxReportTitle>
   </TfrxReportPage>
 </TfrxReport>
