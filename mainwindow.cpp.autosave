@@ -98,7 +98,7 @@ void MainWindow::on_pushButton_clicked()
     }
     write("sett.ini",z);
     system("./print_ -F./baydj_form.fr3 -D./sett.ini -S -Q -PRICE");
- //   system("./print_ -F./baydj_form.fr3 -D./sett.ini -Design");
+  system("./print_ -F./baydj_form.fr3 -D./sett.ini -Design");
              //-S -Q -PRICE &");
 
 }
